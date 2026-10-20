@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated security data
+data/raw/
+data/processed/
+
+# Generated reports and logs
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
